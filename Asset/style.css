@@ -99,10 +99,15 @@ header{
 .learn{
     margin-top: 50px;
     height: auto;
+    border: #ca9a15 3px solid;
+    border-radius: 10px;
+   
 }
 .learn img{
+    border: #ca9a15 2px solid;
     width: 100%;
-    height: 300px;
+    height: 350px;
+    border-radius: 20px;
 }
 #oils{
     width: 50%;
