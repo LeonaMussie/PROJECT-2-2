@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Asset/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">  
+      </head>
+<body>
+  <nav class = "navbar navbar-expand-lg navbar-light bg-black py-4 fixed-top">
+    <div class = "container-fluid">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <img src = "Asset/images/logo.png" alt = "site icon">
+            <span class = "fw-lighter ms-2 text-warning">London Loox</span>
+        </a>
+        <div class = "order-lg-2 nav-btns">
+            <div class="col-md-3 d-flex justify-content-start icon">
+                <div class="pt-3 pl-0 pb-0 pr-0 ">
+                  <i class="fas fa-shopping-cart fa-2x ml-md-5"></i>
+                </div>
+                <span class="badge badge-success mt-0 align-self-start " id="cart_item_count" style="margin-left: -25px;margin-top: -5px;">0</span>
+                
+              </div>
+      </div>
+          <button class = "navbar-toggler border-0 " type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <span class = "navbar-toggler-icon bg-white"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse order-lg-1 " id = "navMenu">
+            <ul class = "navbar-nav mx-auto text-center bg-black">
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "index.html">HOME</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "shop.html">SHOP</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                  <a class = "nav-link text-uppercase text-white" href = "about.html">ABOUT US</a>
+                </li> 
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-white" href = "contact.html">CONTACT US</a>
+                </li>
+             </ul>
+        </div>
+</nav>
+<section>
+<div class="container-fluid">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active inner" data-bs-interval="2000">
+        <img src="Asset/images/hair12.png" class="d-block w-100" alt="..." style = "padding-top: 120px;">
+        <div class="carousel-caption d-block">
+          <h2 style = "padding-bottom: 100px; padding-right: 600px;"> RISE AND SHINE <i class="fa-solid fa-droplet" ></i></h2>
+          <h3>CONFIDENCE FROM THE CROWN DOWN</h3> 
+          <a href = "about.html" class = "btn mt-3 text-uppercase">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item inner" data-bs-interval="2000">
+        <img src="Asset/images/riceplantoil.png" class="d-block w-100" alt="..." style = "padding-top: 80px;" >
+        <div class="carousel-caption d-block">
+            <h3 style = "padding-top: 100px; padding-right:500px;">THERE'S POWER IN EVERY DROP</h3>
+          <a href = "shop.html" class = "btn mt-3 text-uppercase">shop now</a>
+        </div>
+      </div>
+      <div class="carousel-item inner" data-bs-interval="2000">
+        <img src="Asset/images/Oils1.png" class="d-block w-100" alt="..."style = "padding-top: 150px;">
+        <div class="carousel-caption d-block">
+          <a href = "oil.html" class = "btn mt-3 text-uppercase">shop now</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+  <section class="container learn">
+     <div class="row pt-3 bg-black text-white">
+         <div class="col-md-6 col-lg-6 mt-5 feat">
+            <h3 id="header1"> RICE OIL</h3>
+            <p id="p1">Confidence is at the root of our mission. The secret to empowered skin and hair is about more than just how it looks, it's about giving your strands the strength they need to show up and shine, naturally. Powered by nature, our line of hair care products was formulated to nourish, replenish, and strengthen your locks for confidence from the crown down.</p>
+            <a href="about.html" class="btn mt-3 text-uppercase">Learn More</a>
+        </div>
+         <div class="col-md-6 col-lg-6 mt-5 p-2">
+             <img src="Asset/images/rice-bran-oil-png-6.png" alt="oil">
+         </div>
+     </div>
+  </section>
+  <section class="container">
+      <div class="pt-3  quote">
+          <hr>
+          <p >
+            "Beauty is in the skin! Take care of it, oil it, clean it, scrub it, perfume it, and put on your best clothes, even if there is no special occasion, and you'll feel like a queen."
+          </p>
+          <hr>
+      </div>
+  </section>
+   <section class="container" >
+    <div class="row d-flex justify-content-around" >
+     <div class = "col-md-6 col-lg-4 p-2">
+        <div class = "cards collection-img position-relative containerimg ">
+          <img src = "Asset/images/rice and shine.png" class = "w-100">
+         </div>
+     </div>
+      <div class = "col-md-6 col-lg-6 p-2 new ">
+        <div >
+          <h3 >RICE AND SHINE</h3>
+          <h4 >Bran Rice Oil </h4>
+         </div> 
+        <div class="d-flex flex-row bd-highlight mb-3 rice">
+           <div class="cards p-2 bd-highlight ">
+              <img src = "Asset/images/rice1.png" class = "w-100 card-img-top">
+              <p><b>Hair Strength</b></p>
+              <p>Used in hair, Rice Bran Carrier Oil repairs dryness, damage, and brittleness.</p>
+           </div>
+           <div class="cards p-2 bd-highlight ">
+              <img src = "Asset/images/Riceoil.png" class = "w-100 card-img-top">
+              <p><b>Moisterize Skin</b></p>
+              <p>It increases skin’s natural regeneration, encourages moisture retention, and soothes irritation.</p>
+           </div>
+     </div>
+     <div> <hr>
+     <span><a href = "oil.html" class = "btn mt-3 text-uppercase" id="button3">shop now</a></span>
+    </div>
+ </div> 
+</section>
+
+  <section class="container pt-5 mt-2">
+    <div class="row bg-black text-white benefits">
+       <h2 class="text-center">Key Benefits of Bran Rice Oil </h2>
+       <div class="row">
+       <div class="col-md-6 col-lg-6 col-xl-6 p-2">
+           <h3>Benefits for Skin </h3>
+           <ul>
+             <li>The Vitamin E in Rice Bran has the ability to deeply penetrate your skin and nourish it from within. This leaves your skin feeling healthy and soft. </li>
+             <li>Antioxidants and Vitamin E found in Rice Bran Oil nourishes your skin cells, which slows down the aging process. (Who doesn’t love that??)</li>
+             <li>It does not clog pores when used on skin which can be very useful in skin’s overall natural regeneration process.</li>
+             <li>Rice Bran Oil has anti inflammatory attributes, giving it the ability to soothe and calm irritated skin, reduce and help with Eczema and heal sun/wind/cold image of beautiful female legs, smooth skin after depilationdamaged skin</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6 p-2">
+            <h3>Benefits on Hair</h3>
+            <ul>
+             <li>Just like it helps skin, it can also help protect your hair from sun/wind/cold damages!</li>
+             <li>Rice Bran Oil helps to normalize the oiliness of your scalp.Soften hair without leaving a greasy or sticky residue</li>
+             <li>Helps to strengthen your roots.t facilitates hair growth while preventing the premature development of grey hair.</li>
+             <li>Rice Bran oil massaged into the hair can help tackle dandruff.Have emollient properties</li>
+             </ul>
+         </div>
+        </div>
+    </div>
+  </section>
+   <section class="container-fluid shop">
+    <div> 
+        <h2 class="text-center"> <a href="shop.html"> SHOP</a></h2>
+   </div>
+    <div  class="d-flex justify-content-around">
+        <div class="col-sm-3 p-3 cards" >
+            <a href="shop.html">
+           <img src = "Asset/images/Durag.png" class = "w-100 Accesories" >
+           <h4>Silky Durag</h4>
+           <p>Perfect for 360 Waves, Dreadlocks and Curls, Premium Silk Durags for Men and Women, Ultra-Soft, Comfortable</p>
+           <span class = "fw-bold d-block">$ 6.50</span>
+           <a href = "shop.html" class = "btn mt-3 text-uppercase" id="button">shop now</a>
+        </a>
+            
+        </div>
+          <div class="col-sm-3 p-3 cards" >
+              <a href="shop.html">
+            <img src = "Asset/images/Bonnet .png" class = "w-100 Accesories" >
+            <h4>Satin Bonnet</h4>
+            <p>Satin Bonnet Sleep Cap, Sleeping Head Cover for Women Girl Hair Care, Satin Hat Soft Night Gap for Hair Protection</p>
+            <span class = "fw-bold d-block">$ 6.25</span>
+            <a href = "shop.html" class = "btn mt-3 text-uppercase" id="button2">shop now</a>
+             </a>
+        </div>
+         <div class="col-sm-3 p-3 cards">
+             <a href="shop.html">
+           <img src = "Asset/images/Hair Accesories.png" class = "w-100 Accesories">
+           <h4>Hair Braid Rings </h4>
+           <p>Hair Jewelry Rings Clips Aluminum Dread Locks Adjustable hair Cuffs beads braids accessories</p>
+           <span class = "fw-bold d-block">$ 5.45</span>
+           <a href = "shop.html" class = "btn mt-3 text-uppercase" id="button3">shop now</a>         
+           </a>
+        </div>
+      </div>
+   </section>
+   <div class="row pr-md-5 d-flex justify-content-center justify-content-md-end bg-info">
+    <div class="col-md-6 col-lg-4 mr-lg-5 border p-3 pb-4 rounded-lg bg-white ml-md-0" id="cart" style="position: absolute;z-index: 1;top: 80px;overflow: auto;">
+  
+      <div class="d-flex">
+        <div class="col-md-3">
+           <h5>Product</h5>        
+        </div>
+        <div class="col-md-3 d-flex flex-wrap align-content-center">
+          <h5>Title</h5>
+        </div>
+        <div class="col-md-3 d-flex flex-wrap align-content-center">
+          <h5>Qty</h5>
+        </div>
+        <div class="col-md-2 d-flex flex-wrap align-content-center">
+          <h5>Price</h5>
+        </div>
+        <div class="col-md-1"></div>
+        
+      </div>
+  
+      <div id="order" style="overflow: auto;height: 250px;">
+        
+      </div>
+      <div id="cart_footer">
+    <div id="order_btn" class="text-center text-white w-100 bg-dark p-2 font-weight-bold" style="letter-spacing: 1.2px;font-size: 20px;">
+      Order
+    </div>      
+      </div>
+      
+    </div>
+     
+   </div>
+ <footer class = "container-fluid bg-black py-3" id="footer">
+    <div class = "bg-black py-3">
+        <div class = "row text-white g-4">
+            <div class = "col-md-6 col-lg-3">
+                <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">London Loox</a>
+                <p class = "text-white  mt-3">Powered by nature, our line of hair care products was formulated to nourish, replenish, and strengthen your locks for confidence from the crown down.</p>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light">Links</h5>
+                <ul class = "list-unstyled">
+                    <li class = "my-3">
+                        <a href = "index.html" class = "text-white text-decoration-none ">
+                            Home
+                        </a>
+                    </li>
+                    <li class = >
+                        <a href = "shop.html" class = "text-white text-decoration-none ">
+                            Shop
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "about.html" class = "text-white text-decoration-none ">
+                            About
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "contact.html" class = "text-white text-decoration-none ">
+                            Contact 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Contact Us</h5>
+                <div class = "d-flex justify-content-start align-items-start my-2 ">
+                    <span class = "me-3">
+                        <i class = "fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        CHELMSFORD, ESSEX.
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 ">
+                    <span class = "me-3">
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span class = "fw-light">
+                      merih84@outlook.com
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 ">
+                    <span class = "me-3">
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        +447944673624
+                    </span>
+                </div>
+            </div>
+
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Follow Us</h5>
+                <div>
+                    <ul class = "list-unstyled d-flex">
+                        <li>
+                            <a href = "https://www.facebook.com/mary.tesfamariam"  target="blank" class = "text-white text-decoration-none  fs-4 me-4">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/londonloox/" target="blank" class = "text-white text-decoration-none  fs-4 me-4">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.pinterest.co.uk/" target="blank" class = "text-white text-decoration-none  fs-4 me-4">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="jquery-3.6.0.js"></script>
+  <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+  <Script src="cart.js"></Script>
+</body>
+</html>
