@@ -14,7 +14,7 @@ London Loox Ecommerce Website is a web application that offers information about
 - [Technologies Used](#technologies-used)
 - [Website Requirements](#website-requirements)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Conclusion](#getting-started)
 
 ## Usage Scenario
 
@@ -50,9 +50,9 @@ The website includes the following essential pages:
 - Informative Content: Learn about the benefits of rice oil.
 - User-Friendly Shopping Cart: Easily add and view products in your cart.
 
-## Getting Started
+## Conclusion
 
-To start using London Loox Ecommerce Website, visit our website at [www.londonloox.com](https://www.londonloox.com). Explore the pages to learn about rice oil and enjoy a smooth shopping experience.
+To start using London Loox Ecommerce Website, visit our website. Explore the pages to learn about rice oil and enjoy a smooth shopping experience.
 
 Thank you for choosing London Loox Ecommerce Website for your rice oil needs. We hope you have a delightful experience!
 
