@@ -1,25 +1,60 @@
-# LONDON LOOX
-This is a website application  for ecommerce website of London Loox.  
+# London Loox Ecommerce Website
 
+London Loox Ecommerce Website is a web application that offers information about rice oil and provides a user-friendly shopping experience for adding rice oil products to your cart.
 
-# Usage Scenario
-The website application allows users to have information about rice oil, the benefits of rice oil, and add the rice oil to their shopping cart. The shopping cart is easy to use. Users can add different products to the shopping cart. If they click on the shopping cart, they can see the product they just added. If they hover away from it, the cart shop will disappear. 
+[Live App](https://leonamussie.github.io/PROJECT-2-2/index.html)
 
-Users can also fill in the contact form by writing their username and email. If the user tries to enter an invalid email account, the website application will not let them proceed. The website also provides links of phone number and email account of London Loox at the contact page, so users can call directly or write an email to them. 
+![Screenshot (87)](https://github.com/LeonaMussie/PROJECT-2-2/assets/91215248/5702423b-b956-47c0-84fc-f376cf8a4da8)
+![Screenshot (88)](https://github.com/LeonaMussie/PROJECT-2-2/assets/91215248/98c99ecd-b8d3-464b-8f99-043c921b4901)
+![Screenshot (89)](https://github.com/LeonaMussie/PROJECT-2-2/assets/91215248/ede83652-084f-4e01-b8d5-17349ae4e306)
+![Screenshot (90)](https://github.com/LeonaMussie/PROJECT-2-2/assets/91215248/aaa1a96c-4cdd-45cf-a886-37fed8e3a917)
 
-Overall, this website application is a great choice for users who want to have information about rice oil, the benefits of rice oil, and add it to their shopping cart. It also provides easy access to contact London Loox for any inquiry.
+## Table of Contents
+- [Usage Scenario](#usage-scenario)
+- [Technologies Used](#technologies-used)
+- [Website Requirements](#website-requirements)
+- [Features](#features)
+- [Getting Started](#getting-started)
 
+## Usage Scenario
 
-# Technolgies Used
+This website is designed for users interested in rice oil and its benefits. Here's how you can use the website:
+
+- **Information about Rice Oil:** Explore information about the benefits of rice oil.
+- **Shopping Cart:** Add rice oil products to your shopping cart. The cart is easy to use and displays the products you've added when you click on it.
+- **Contact Form:** Get in touch with us through the contact form by providing your username and email. The website will alert you if you enter an invalid email address.
+- **Direct Contact:** Find our phone numbers and email addresses on the Contact page for immediate contact.
+
+## Technologies Used
+
+London Loox Ecommerce Website is built using the following technologies:
+
 - HTML
 - CSS
-- bootsrtap
-- Java script
-- Jquery 
+- Bootstrap
+- JavaScript
+- jQuery
 
-# Website requirement
-- Home page
-- About page
-- Contact page
-- Shop page 
-- Shop cart button
+## Website Requirements
+
+The website includes the following essential pages:
+
+- Home Page
+- About Page
+- Contact Page
+- Shop Page
+- Shopping Cart Button
+
+## Features
+
+- Informative Content: Learn about the benefits of rice oil.
+- User-Friendly Shopping Cart: Easily add and view products in your cart.
+
+## Getting Started
+
+To start using London Loox Ecommerce Website, visit our website at [www.londonloox.com](https://www.londonloox.com). Explore the pages to learn about rice oil and enjoy a smooth shopping experience.
+
+Thank you for choosing London Loox Ecommerce Website for your rice oil needs. We hope you have a delightful experience!
+
+***
+Created By: Leona Mussie<br/>
